@@ -5,3 +5,5 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8501:8501"
+    environment:
+      OPENAI_API_KEY: "dummy-key"
