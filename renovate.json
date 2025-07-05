@@ -22,12 +22,24 @@
       }
     },
     {
+      "rangeStrategy": "auto",
+      "groupName": "python",
+      "matchPackageNames": [
+        "/python/"
+      ]
+    },
+    {
       "matchUpdateTypes": [
-        "*"
+        "major",
+        "minor",
+        "patch",
+        "bump",
+        "digest",
+        "lockFileMaintenance"
       ],
       "groupName": "all",
       "matchPackageNames": [
-        "*"
+        "/.*/"
       ]
     }
   ]
