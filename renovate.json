@@ -29,14 +29,6 @@
       ]
     },
     {
-      "matchUpdateTypes": [
-        "major",
-        "minor",
-        "patch",
-        "bump",
-        "digest",
-        "lockFileMaintenance"
-      ],
       "groupName": "all",
       "groupSlug": "all-updates",
       "matchPackageNames": [
