@@ -38,9 +38,11 @@
         "lockFileMaintenance"
       ],
       "groupName": "all",
+      "groupSlug": "all-updates",
       "matchPackageNames": [
         "/.*/"
-      ]
+      ],
+      "separateMajorMinor": false
     }
   ]
 }
