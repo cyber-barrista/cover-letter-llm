@@ -1079,18 +1079,18 @@ typing-extensions = ">=4.7"
 
 [[package]]
 name = "langchain-openai"
-version = "0.3.27"
+version = "0.3.28"
 description = "An integration package connecting OpenAI and LangChain"
 optional = false
 python-versions = ">=3.9"
 groups = ["main"]
 files = [
-    {file = "langchain_openai-0.3.27-py3-none-any.whl", hash = "sha256:efe636c3523978c44adc41cf55c8b3766c05c77547982465884d1258afe705df"},
-    {file = "langchain_openai-0.3.27.tar.gz", hash = "sha256:5d5a55adbff739274dfc3a4102925771736f893758f63679b64ae62fed79ca30"},
+    {file = "langchain_openai-0.3.28-py3-none-any.whl", hash = "sha256:4cd6d80a5b2ae471a168017bc01b2e0f01548328d83532400a001623624ede67"},
+    {file = "langchain_openai-0.3.28.tar.gz", hash = "sha256:6c669548dbdea325c034ae5ef699710e2abd054c7354fdb3ef7bf909dc739d9e"},
 ]
 
 [package.dependencies]
-langchain-core = ">=0.3.66,<1.0.0"
+langchain-core = ">=0.3.68,<1.0.0"
 openai = ">=1.86.0,<2.0.0"
 tiktoken = ">=0.7,<1"
 
@@ -2210,14 +2210,14 @@ dev = ["black", "build", "flake8", "flake8-black", "isort", "jupyter-console", "
 
 [[package]]
 name = "pypdf"
-version = "5.7.0"
+version = "5.8.0"
 description = "A pure-python PDF library capable of splitting, merging, cropping, and transforming PDF files"
 optional = false
 python-versions = ">=3.8"
 groups = ["main"]
 files = [
-    {file = "pypdf-5.7.0-py3-none-any.whl", hash = "sha256:203379453439f5b68b7a1cd43cdf4c5f7a02b84810cefa7f93a47b350aaaba48"},
-    {file = "pypdf-5.7.0.tar.gz", hash = "sha256:68c92f2e1aae878bab1150e74447f31ab3848b1c0a6f8becae9f0b1904460b6f"},
+    {file = "pypdf-5.8.0-py3-none-any.whl", hash = "sha256:bfe861285cd2f79cceecefde2d46901e4ee992a9f4b42c56548c4a6e9236a0d1"},
+    {file = "pypdf-5.8.0.tar.gz", hash = "sha256:f8332f80606913e6f0ce65488a870833c9d99ccdb988c17bb6c166f7c8e140cb"},
 ]
 
 [package.extras]
@@ -2780,14 +2780,14 @@ sqlcipher = ["sqlcipher3_binary"]
 
 [[package]]
 name = "streamlit"
-version = "1.46.1"
+version = "1.47.0"
 description = "A faster way to build and share data apps"
 optional = false
 python-versions = "!=3.9.7,>=3.9"
 groups = ["main"]
 files = [
-    {file = "streamlit-1.46.1-py3-none-any.whl", hash = "sha256:dffa373230965f87ccc156abaff848d7d731920cf14106f3b99b1ea18076f728"},
-    {file = "streamlit-1.46.1.tar.gz", hash = "sha256:2cc4ad01cfeded9ad953a21829eb879b90aa77af4068c68397411c2d5c8862cf"},
+    {file = "streamlit-1.47.0-py3-none-any.whl", hash = "sha256:c10dbfdf832c3fb8e5b62c7a5d1eaaae460dcf332a3a1623f7a072a6303100ee"},
+    {file = "streamlit-1.47.0.tar.gz", hash = "sha256:b4ff3b8fa01de1e1dc572930b420897f0870ed2ae44e23a815999b62c0778c30"},
 ]
 
 [package.dependencies]
@@ -3285,4 +3285,4 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.13"
-content-hash = "bb06cc1c8622619b609aa219b74acb3a7e66915b16fad999dd55265413244a90"
+content-hash = "3f0766aa0907e62a881c85f21d10e7fcddd6ff42eac29f038d2f886b225b325f"
