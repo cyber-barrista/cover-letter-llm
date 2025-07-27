@@ -8,15 +8,15 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.13"
-langchain = "0.3.26"
+langchain = "0.3.27"
 langchain-community = "0.3.27"
-langchain-openai = "0.3.27"
+langchain-openai = "0.3.28"
 html2text = "2025.4.15"
-streamlit = "1.46.1"
-pypdf = "5.7.0"
+streamlit = "1.47.1"
+pypdf = "5.9.0"
 pyperclip = "1.9.0"
 python-dotenv = "1.1.1"
-playwright = "1.53.0"
+playwright = "1.54.0"
 
 
 [build-system]
