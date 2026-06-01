@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/playwright/python:v1.54.0-jammy@sha256:2430848b40af48b6d616a239f6a09ed27c7ff9bd983f0771f33914b191530c92
+FROM mcr.microsoft.com/playwright/python:v1.60.0-noble@sha256:8ff591d613b01c884cc488339ed4318b4513eaf0c57a164a878ba49e70e3f384
 
 RUN pip install poetry==2.1.3
 

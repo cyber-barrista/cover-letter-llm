@@ -16,7 +16,7 @@ streamlit = "1.57.0"
 pypdf = "6.11.0"
 pyperclip = "1.11.0"
 python-dotenv = "1.2.2"
-playwright = "1.59.0"
+playwright = "1.60.0"
 
 [build-system]
 requires = ["poetry-core"]
