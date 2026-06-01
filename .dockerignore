@@ -4,6 +4,7 @@ __pycache__/
 
 # Virtual environment directories
 venv/
+.venv/
 .env/
 
 # Logs and temporary files
